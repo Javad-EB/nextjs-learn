@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        lusitana: ['var(--font-lusitana)'],
+        mono: ['var(--font-roboto-mono)'],
+      },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
